@@ -5,9 +5,9 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.jpeg";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import kfcII from "../../Assets/Projects/kfcII.jpg";
+import buywow from "../../Assets/Projects/buywow.png";
+
 
 function Projects() {
   return (
@@ -23,21 +23,23 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={kfcII}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="Kfc-Clone-React"
+              description="online.kfc.co.in website clone build with react.js, redux, and html. Have features which allows user to  login,add products to cart, ."
+              link="https://github.com/CodEsHiVaz/kfc-clone-react"
+              deplink = "https://mellow-froyo-f88246.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={buywow}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="BuyWowClone"
+              description="BuyWowClone is a clone of the website www.buywow.com. It is built with html,Css and Javascript. Have features which allows user to  login,add products to cart, and Checkout ."
+              link="https://github.com/SuryatejaParvata/BuyWowClone-Unit-3/tree/main"
+              deplink = "https://mellow-froyo-f88246.netlify.app/"
             />
           </Col>
 
@@ -63,7 +65,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              // imgPath={}
               isBlog={false}
               title="Ai For Social Good"
               description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."

@@ -47,9 +47,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              title="Kfc Clone I"
+              description="online.kfc.co.in website clone build with Html,Css and Javascript. Have features which allows user to  login,add products to cart, ."
+              link="https://github.com/Anands-88/Kfc-Project"
+              deplink = "https://kfc-project-anands-88.vercel.app/"
             />
           </Col>
 
